@@ -16,7 +16,10 @@ const cookieParser = require('cookie-parser');
 const {
     notFoundHandler,
     errorHandler
-} = require('./middleware/errorHandler');
+} = require('./middleware/common/errorHandler');
+const loginRouter = require('./router/loginRouter');
+const userRouter = require('./router/userRouter');
+const inboxRouter = require('./router/inboxRouter');
 
 const app = express();
 dotenv.config();
@@ -40,6 +43,9 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(cookieParser(process.env.COOKIE_SECRET));
 
 // routing setup
+app.use("/", loginRouter);
+app.use("/users", userRouter);
+app.use("/inbox", inboxRouter);
 
 // 404 error handling
 app.use(notFoundHandler);
