@@ -5,11 +5,18 @@
  * Date: 24/07/2022
  */
 
+// external imports
 const express = require('express');
 const dotenv = require('dotenv');
 const mongoose = require('mongoose');
 const path = require('path');
 const cookieParser = require('cookie-parser');
+
+// internal imports
+const {
+    notFoundHandler,
+    errorHandler
+} = require('./middleware/errorHandler');
 
 const app = express();
 dotenv.config();
@@ -34,7 +41,11 @@ app.use(cookieParser(process.env.COOKIE_SECRET));
 
 // routing setup
 
-// error handling
+// 404 error handling
+app.use(notFoundHandler);
+
+// default error handling
+app.use(errorHandler);
 
 app.listen(process.env.PORT, () => {
     console.log(`app listening on port ${process.env.PORT}`);
