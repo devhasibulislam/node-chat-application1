@@ -12,10 +12,12 @@ A full stack open source application project. That give a chatting texture with 
 * jwt
 * bcrypt
 * http-errors
+* nodemon
+* windows node environment
 
 ### Easy installation of packages
 ```bash
-npm i express dotenv ejs mongoose multer cookie-parser multer express-validator jsonwebtoken bcrypt http-errors
+npm i express dotenv ejs mongoose multer cookie-parser multer express-validator jsonwebtoken bcrypt http-errors nodemon win-node-env
 ```
 
 ## Owing
