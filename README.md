@@ -53,7 +53,7 @@ code .
 * admin password: `Hasibul@1`
 
 ### User
-* user1 email: `sadia01@gmail.com`
+* user1 email: `sadiadhira01@gmail.com`
 * user1 password: `Sadia@12`
 
 `or`
