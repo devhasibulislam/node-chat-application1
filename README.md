@@ -39,29 +39,12 @@ code .
 
 ## Trail
 ### Admin
-* user email
-```bash
-hasib143sl@gmail.com
-```
-* user password
-```bash
-Hasibul@1
-```
+* admin email: `hasib143sl@gmail.com`
+* admin password: `Hasibul@1`
 
 ### User
-* user email
-```bash
-sadia01@gmail.com
-```
+* user1 email: `sadia01@gmail.com`
+* user1 password: `Sadia@12`
 `or`
-```bash
-rkrakibhasan680@gmail.com
-```
-* user password
-```bash
-Sadia@12
-```
-`or`
-```bash
-Rakib@12
-```
+* user2 email: `rkrakibhasan680@gmail.com`
+* user2 password: `Rakib@12`
