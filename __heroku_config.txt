@@ -1,0 +1,8 @@
+heroku config:set APP_NAME="Node Chat Application"
+heroku config:set APP_URL="https://nca-node-chat-application.herokuapp.com"
+heroku config:set PORT=5000
+heroku config:set MONGO_CONNECTION_STRING="mongodb+srv://NodeChatApp:d7229a13ab5141786529fc1d6b9c125a@nodechatapp.pqir9.mongodb.net/?retryWrites=true&w=majority"
+heroku config:set COOKIE_SECRET=228e1254dff3254654f4a327151a8a06
+heroku config:set JWT_SECRET=8748e4b8cc3fcfb7eeeb188789318657f4ada80811a8dc255d1f9beb94c8862c
+heroku config:set JWT_EXPIRY=86400000
+heroku config:set COOKIE_NAME="node-chat-application"
