@@ -82,7 +82,7 @@
           // message class
           const messageClass = data.message.sender.id === loggedinUserId ? 'you-message' : 'other-message';
           
-          const senderAvatar = data.message.sender.avatar ? `<img src="./uploads/avatars/${data.message.sender.avatar}" alt="${data.message.sender.name}" />` : `<img src="./images/nophoto.png" alt="${data.message.sender.name}" />`;
+          const senderAvatar = data.message.sender.avatar ? `<img src="./uploads/avatars/${data.message.sender.avatar}" alt="${data.message.sender.name}" style="height: 40px;width: 40px;object-fit: cover;" />` : `<img src="./images/nophoto.png" alt="${data.message.sender.name}" />`;
 
           // message attachments
           let attachments = '<div class="attachments">';
