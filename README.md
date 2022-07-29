@@ -45,6 +45,8 @@ code .
 ### User
 * user1 email: `sadia01@gmail.com`
 * user1 password: `Sadia@12`
+
 `or`
+
 * user2 email: `rkrakibhasan680@gmail.com`
 * user2 password: `Rakib@12`
