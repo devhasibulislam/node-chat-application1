@@ -1,6 +1,16 @@
 # Node Chat Application
 A full stack open source application project. That give a chatting texture with two peer. Conduct with backend approach directly.
 
+## Features
+* `Admin`
+    * login
+    * add user
+    * remove user
+    * chatting
+* `User`
+    * login
+    * chatting
+
 ## Packages
 * express
 * dotenv
